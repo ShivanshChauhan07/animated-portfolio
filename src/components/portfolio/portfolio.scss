@@ -1,0 +1,64 @@
+.portfolio {
+  position: relative;
+  .heading {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    text-align: center;
+    color: orange;
+    font-size: 36px;
+
+    .scrollbar {
+      height: 10px;
+      background-color: white;
+    }
+  }
+  section {
+    .project-container {
+      display: flex;
+      //   border: 2px solid red;
+      height: 50%;
+      justify-content: center;
+      align-items: center;
+      padding-top: 350px;
+
+      .img-container {
+        height: min-content;
+        width: fit-content;
+        border: 2px solid orange;
+        border-radius: 10px;
+        // border: 2px solid green;
+        img {
+          height: 300px;
+          width: 350px;
+          border-radius: 10px;
+        }
+      }
+      .desc-container {
+        // border: 2px solid blue;
+        width: 35%;
+        padding: 25px;
+        margin: 0 20px;
+        h2 {
+          font-size: 46px;
+          margin: 10px;
+        }
+        p {
+          color: gray;
+          margin: 20px 0;
+        }
+        button {
+          padding: 10px;
+          border-radius: 16px;
+          border: none;
+          background-color: orange;
+          font-size: medium;
+          font-weight: 500;
+          width: 40%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

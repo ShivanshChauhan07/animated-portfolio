@@ -1,0 +1,84 @@
+.education {
+  //   border: 2px solid red;
+  height: 100%;
+  .container {
+    // border: 2px solid green;
+    padding: 0 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .heading {
+      //   border: 2px solid blue;
+      padding: 20px;
+      h1 {
+        text-align: center;
+        font-size: 48px;
+      }
+      p {
+        margin-top: 15px;
+        padding: 0 20px;
+        font-size: larger;
+        text-align: center;
+      }
+    }
+    .education-card-container {
+      //   border: 2px solid yellow;
+      height: 81%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      .card {
+        border: 2px solid #6b40b6;
+        width: 75%;
+        height: 275px;
+        border-radius: 6px;
+        overflow: hidden;
+        padding: 15px 15px;
+        box-shadow: rgb(121, 73, 205, 0.5) 2px 2px 30px;
+        .card-info-heading {
+          display: flex;
+          padding: 5px 15px;
+          column-gap: 20px;
+          color: #989da2;
+          .logo {
+            img {
+              height: 75px;
+              width: 75px;
+              border-radius: 16px;
+            }
+          }
+          .name {
+            .college-name {
+              h5 {
+                margin-top: 5px;
+              }
+              h3 {
+                color: white;
+              }
+            }
+            p {
+              margin: 5px 0;
+              font-size: small;
+            }
+          }
+        }
+      }
+    }
+    .result {
+      margin: 5px 0;
+      color: gray;
+    }
+    .desc {
+      padding: 7px 0;
+      color: #989da2;
+      height: 100%;
+      p {
+        padding: 5px 0;
+        height: 50%;
+        overflow: hidden;
+      }
+    }
+  }
+}

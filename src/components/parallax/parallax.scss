@@ -1,0 +1,48 @@
+.parallax {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-weight: 800;
+    font-size: 80px;
+    z-index: 50;
+  }
+  .mountains {
+    height: 100%;
+    width: 100%;
+    background-image: url("/mountains.png");
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    z-index: 20;
+  }
+  .stars {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-image: url("/stars.png");
+    background-size: cover;
+    background-position: top;
+  }
+  .planets {
+    position: absolute;
+    z-index: 30;
+    height: 100%;
+    width: 100%;
+    background-image: url("/planets.png");
+    background-size: cover;
+  }
+  .sun {
+    position: absolute;
+    z-index: 30;
+    height: 100%;
+    width: 100%;
+    background-image: url("/sun.png");
+    background-size: cover;
+  }
+}

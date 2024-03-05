@@ -1,0 +1,76 @@
+.skill {
+  //   border: 2px solid red;
+  height: 100%;
+  header {
+    // border: 2px solid green;
+    margin: 5% 0;
+    text-align: center;
+    padding: 0 10%;
+    h1 {
+      font-size: 50px;
+    }
+    h3 {
+      margin: 3% 0;
+      font-weight: 400;
+      padding: 0 15%;
+    }
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    // border: 2px solid blue;
+    height: 100%;
+    justify-content: space-around;
+    align-content: flex-start;
+    gap: 20px;
+
+    .card {
+      margin-top: 50px;
+      width: 450px;
+      height: 410px;
+      border: 2px solid #854ce6;
+      border-radius: 16px;
+      text-align: center;
+      padding: 18px 10px;
+      box-shadow: 8px 25px 35px 2px rgb(27, 30, 48, 10),
+        -20px -22px 30px #1b1f32;
+
+      .logo-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        align-content: flex-start;
+        padding: 10% 0;
+        gap: 10px;
+        row-gap: 20px;
+
+        .cardItems {
+          border: 1px solid gray;
+          display: flex;
+          width: fit-content;
+          height: min-content;
+          padding: 12px 16px;
+          border-radius: 16px;
+          color: gray;
+          cursor: pointer;
+
+          img {
+            height: 24px;
+            width: 24px;
+          }
+          h5 {
+            margin: auto 10px;
+            font-size: 16px;
+          }
+        }
+      }
+      .logo-container div:nth-of-type(7) {
+        padding: 12px 4px;
+      }
+      .logo-container div:nth-of-type(5) {
+        padding: 12px 4px;
+      }
+    }
+  }
+}
